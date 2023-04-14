@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Open+Sans:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 175px;
+  background-color: black;
+}
+
+header p {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+nav a {
+  margin: 0px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  background-color: white;
+  padding: 8px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.sub {
+  line-height: 1.8;
+  font-size: 18px;
+  color: white;
+}
+
+.sect1 {
+  padding: 50px 175px;
+  background-image: url(img/hero.png);
+  background-size: cover;
+  background-position: center;
+}
+.title2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.sub2 {
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.sect2,
+.sect3,
+.sect4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 175px;
+}
+.desc {
+  width: 800px;
+  padding-top: 150px;
+}
+.desc2 {
+  width: 800px;
+  padding-top: 75px;
+}
+
+.sect2Img,
+.sect3Img,
+.sect4Img {
+  width: 450px;
+}
+
+.sect5 {
+  background-color: black;
+  margin-top: 100px;
+  color: white;
+}
+.wrap {
+  padding: 50px 500px;
+}
+.wrap p {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+.i1,
+.i2,
+.i3,
+.i4 {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 5px 0px;
+}
+
+#submit-form {
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 175px;
+  background-color: black;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
